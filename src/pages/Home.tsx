@@ -655,18 +655,12 @@ detail to the deployed frontend.
               </a>
               <div className="flex flex-wrap flex-col gap-3">
                 <div className="flex flex-wrap gap-2">
-                  <Link
-                    className="text-xs text-black-text-800 uppercase font-medium font-Inter leading-none py-[6px] px-4 rounded-[40px] border border-black-text-400 transition-all hover:bg-active hover:border-active hover:text-white"
-                    to="/projects"
-                  >
+                  <span className="text-xs text-black-text-800 uppercase font-medium font-Inter leading-none py-[6px] px-4 rounded-[40px] border border-black-text-400">
                     SAAS
-                  </Link>
-                  <Link
-                    className="text-xs text-black-text-800 uppercase font-medium font-Inter leading-none py-[6px] px-4 rounded-[40px] border border-black-text-400 transition-all hover:bg-active hover:border-active hover:text-white"
-                    to="/projects"
-                  >
+                  </span>
+                  <span className="text-xs text-black-text-800 uppercase font-medium font-Inter leading-none py-[6px] px-4 rounded-[40px] border border-black-text-400">
                     UX CASE STUDY
-                  </Link>
+                  </span>
                 </div>
                 <div className="flex flex-wrap items-center justify-between text-black-800 hover:text-orange group">
                   <h4 className="font-bold font-Syne text-center leading-10 text-[20px] lg:text-[24px] xl:text-[32px] capitalize">
@@ -702,18 +696,12 @@ detail to the deployed frontend.
               </a>
               <div className="flex flex-wrap flex-col gap-3">
                 <div className="flex flex-wrap gap-2">
-                  <Link
-                    className="text-xs text-black-text-800 uppercase font-medium font-Inter leading-none py-[6px] px-4 rounded-[40px] border border-black-text-400 transition-all hover:bg-active hover:border-active hover:text-white"
-                    to="/projects"
-                  >
+                  <span className="text-xs text-black-text-800 uppercase font-medium font-Inter leading-none py-[6px] px-4 rounded-[40px] border border-black-text-400">
                     APP
-                  </Link>
-                  <Link
-                    className="text-xs text-black-text-800 uppercase font-medium font-Inter leading-none py-[6px] px-4 rounded-[40px] border border-black-text-400 transition-all hover:bg-active hover:border-active hover:text-white"
-                    to="/projects"
-                  >
+                  </span>
+                  <span className="text-xs text-black-text-800 uppercase font-medium font-Inter leading-none py-[6px] px-4 rounded-[40px] border border-black-text-400">
                     DEVELOPMENT
-                  </Link>
+                  </span>
                 </div>
                 <div className="flex flex-wrap items-center justify-between text-black-800 hover:text-orange group">
                   <h4 className="font-bold font-Syne text-center leading-10 text-[20px] lg:text-[24px] xl:text-[32px] capitalize">
@@ -739,18 +727,12 @@ detail to the deployed frontend.
               </a>
               <div className="flex flex-wrap flex-col gap-3">
                 <div className="flex flex-wrap gap-2">
-                  <Link
-                    className="text-xs text-black-text-800 uppercase font-medium font-Inter leading-none py-[6px] px-4 rounded-[40px] border border-black-text-400 transition-all hover:bg-active hover:border-active hover:text-white"
-                    to="/projects"
-                  >
+                  <span className="text-xs text-black-text-800 uppercase font-medium font-Inter leading-none py-[6px] px-4 rounded-[40px] border border-black-text-400">
                     APP
-                  </Link>
-                  <Link
-                    className="text-xs text-black-text-800 uppercase font-medium font-Inter leading-none py-[6px] px-4 rounded-[40px] border border-black-text-400 transition-all hover:bg-active hover:border-active hover:text-white"
-                    to="/projects"
-                  >
+                  </span>
+                  <span className="text-xs text-black-text-800 uppercase font-medium font-Inter leading-none py-[6px] px-4 rounded-[40px] border border-black-text-400">
                     DEVELOPMENT
-                  </Link>
+                  </span>
                 </div>
                 <div className="flex flex-wrap items-center justify-between text-black-800 hover:text-orange group">
                   <h4 className="font-bold font-Syne text-center leading-10 text-[20px] lg:text-[24px] xl:text-[32px] capitalize">
