@@ -31,8 +31,8 @@ export default function Footer() {
             <div className="py-9 px-7 border-border-white border rounded-2xl flex flex-col justify-between group">
               <h3 className="text-xl font-bold font-Syne text-white">Looking for a versatile designer?</h3>
               <div className="flex justify-between items-center">
-                <p className="text-2xl font-bold font-Syne leading-none text-orange">hello@bigayat.com</p>
-                <a href="mailto:hello@bigayat.com" className="text-white group-hover:animate-arrow-move-up group-hover:text-orange">
+                <p className="text-2xl font-bold font-Syne leading-none text-orange">olowuayatullah@gmail.com</p>
+                <a href="mailto:olowuayatullah@gmail.com" className="text-white group-hover:animate-arrow-move-up group-hover:text-orange">
                   <ArrowIconFilled />
                 </a>
               </div>

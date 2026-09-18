@@ -53,7 +53,7 @@ export default function Contact() {
                   </span>
                   <div className="flex flex-wrap flex-col flex-1">
                     <span className="paragraph !leading-none">Email</span>
-                    <h5 className="text-xl font-bold font-Syne text-black-800 leading-7">hello@bigayat.com</h5>
+                    <h5 className="text-xl font-bold font-Syne text-black-800 leading-7">olowuayatullah@gmail.com</h5>
                   </div>
                 </div>
                 <div className="flex flex-wrap gap-4 pb-4 border-b border-gray-300 lg:max-w-[416px]">
@@ -157,7 +157,7 @@ export default function Contact() {
                   {submitted && (
                     <p className="form-message mt-3">
                       Thanks for reaching out! This form isn&rsquo;t wired up to send messages yet &mdash; email me
-                      directly at hello@bigayat.com in the meantime.
+                      directly at olowuayatullah@gmail.com in the meantime.
                     </p>
                   )}
                 </div>

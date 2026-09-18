@@ -137,7 +137,7 @@ export default function About() {
                 <div className="flex flex-col flex-wrap gap-y-2">
                   <span className="text-orange text-lg font-normal leading-none">SAY HELLO!</span>
                   <h4 className="text-white text-2xl xl:text-[28px] font-bold font-Syne leading-none">
-                    hello@bigayat.com
+                    olowuayatullah@gmail.com
                   </h4>
                 </div>
                 <div className="flex flex-wrap justify-end">
