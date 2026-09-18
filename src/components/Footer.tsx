@@ -31,7 +31,7 @@ export default function Footer() {
             <div className="py-9 px-7 border-border-white border rounded-2xl flex flex-col justify-between group">
               <h3 className="text-xl font-bold font-Syne text-white">Looking for a versatile designer?</h3>
               <div className="flex justify-between items-center">
-                <p className="text-2xl font-bold font-Syne leading-none text-orange">olowuayatullah@gmail.com</p>
+                <p className="text-xl font-bold font-Syne leading-none text-orange">olowuayatullah@gmail.com</p>
                 <a href="mailto:olowuayatullah@gmail.com" className="text-white group-hover:animate-arrow-move-up group-hover:text-orange">
                   <ArrowIconFilled />
                 </a>
@@ -41,7 +41,7 @@ export default function Footer() {
             <div className="py-9 px-7 border-border-white border rounded-2xl flex flex-col justify-between group">
               <h3 className="text-xl font-bold font-Syne text-white">Want more in-depth look at my history?</h3>
               <div className="flex justify-between items-center">
-                <p className="text-2xl font-bold font-Syne leading-none text-orange">+234 803 0678 469</p>
+                <p className="text-xl font-bold font-Syne leading-none text-orange">+234 803 0678 469</p>
                 <a href="tel:+2348030678469" className="text-white group-hover:animate-arrow-move-up group-hover:text-orange">
                   <ArrowIconFilled />
                 </a>

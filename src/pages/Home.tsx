@@ -327,7 +327,7 @@ export default function Home() {
 
                 <div className="flex flex-col flex-wrap gap-y-2">
                   <span className="text-orange text-lg font-normal leading-none">SAY HELLO!</span>
-                  <h4 className="text-white text-2xl xl:text-[28px] font-bold font-Syne leading-none">olowuayatullah@gmail.com</h4>
+                  <h4 className="text-white text-xl xl:text-[28px] font-bold font-Syne leading-none">olowuayatullah@gmail.com</h4>
                 </div>
               </div>
             </div>
