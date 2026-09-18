@@ -386,7 +386,7 @@ detail to the deployed frontend.
 
               <div className="flex flex-wrap">
                 <a
-                  href="https://drive.google.com/file/d/1z6g_GWnkUAhlFHUbiV8As-7aeOnBIrJM/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1Bu5-Pm5B40JjW9H4KH8NAJihpVoMB3yn/view?usp=drive_link"
                   target="_blank"
                   rel="noreferrer"
                   className="flex items-center flex-wrap btn-primary group"
