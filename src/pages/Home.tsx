@@ -188,32 +188,6 @@ export default function Home() {
                 <div className="px-6 py-7 bg-black-500 rounded-lg transition-all hover:shadow-2xl hover:bg-white group" data-aos="fade-up" data-aos-delay="500">
                   <div className="w-12 h-12 bg-white rounded-full shadow flex flex-wrap items-center justify-center transition-all group-hover:bg-black-500 mb-8">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        fillRule="evenodd"
-                        clipRule="evenodd"
-                        d="M4.875 3.75C4.875 2.09314 6.21814 0.75 7.875 0.75H16.125C17.7819 0.75 19.125 2.09314 19.125 3.75V20.25C19.125 21.9069 17.7819 23.25 16.125 23.25H7.875C6.21814 23.25 4.875 21.9069 4.875 20.25V3.75ZM7.875 2.25C7.04659 2.25 6.375 2.92157 6.375 3.75V20.25C6.375 21.0784 7.04659 21.75 7.875 21.75H16.125C16.9534 21.75 17.625 21.0784 17.625 20.25V3.75C17.625 2.92157 16.9534 2.25 16.125 2.25H7.875Z"
-                        fill="#080808"
-                        fillOpacity="0.9"
-                      />
-                      <path d="M12.75 4.5C12.75 4.91422 12.4142 5.25 12 5.25C11.5858 5.25 11.25 4.91422 11.25 4.5C11.25 4.08578 11.5858 3.75 12 3.75C12.4142 3.75 12.75 4.08578 12.75 4.5Z" fill="#FFB646" />
-                      <path d="M13.5 19.875C13.9142 19.875 14.25 19.5392 14.25 19.125C14.25 18.7108 13.9142 18.375 13.5 18.375H10.5C10.0858 18.375 9.75 18.7108 9.75 19.125C9.75 19.5392 10.0858 19.875 10.5 19.875H13.5Z" fill="#FFB646" />
-                    </svg>
-                  </div>
-                  <h4>
-                    <a href="#" className="flex flex-wrap items-end justify-between font-bold text-xl font-Syne text-black-800 group-hover:text-orange transition-all">
-                      Mobile Apps <br /> design
-                      <span className="text-black-text-600 group-hover:text-orange group-hover:animate-arrow-move-up">
-                        <ArrowIcon className="transition-all" />
-                      </span>
-                    </a>
-                  </h4>
-                </div>
-                {/* service Item End */}
-
-                {/* service Item */}
-                <div className="px-6 py-7 bg-black-500 rounded-lg transition-all hover:shadow-2xl hover:bg-white group" data-aos="fade-up" data-aos-delay="700">
-                  <div className="w-12 h-12 bg-white rounded-full shadow flex flex-wrap items-center justify-center transition-all group-hover:bg-black-500 mb-8">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clipPath="url(#clip0_1513_4913)">
                         <path d="M23.25 24H6.75C6.55109 24 6.36032 23.921 6.21967 23.7803C6.07902 23.6397 6 23.4489 6 23.25V10.5C6 10.3011 6.07902 10.1103 6.21967 9.96967C6.36032 9.82902 6.55109 9.75 6.75 9.75H23.25C23.4489 9.75 23.6397 9.82902 23.7803 9.96967C23.921 10.1103 24 10.3011 24 10.5V23.25C24 23.4489 23.921 23.6397 23.7803 23.7803C23.6397 23.921 23.4489 24 23.25 24ZM7.5 22.5H22.5V11.25H7.5V22.5Z" fill="#080808" fillOpacity="0.9" />
                         <path d="M6.75 18H3C2.20435 18 1.44129 17.6839 0.87868 17.1213C0.316071 16.5587 0 15.7956 0 15V3C0 2.20435 0.316071 1.44129 0.87868 0.87868C1.44129 0.316071 2.20435 0 3 0L10.5 0C11.2956 0 12.0587 0.316071 12.6213 0.87868C13.1839 1.44129 13.5 2.20435 13.5 3V7.5C13.5 7.69891 13.421 7.88968 13.2803 8.03033C13.1397 8.17098 12.9489 8.25 12.75 8.25C12.5511 8.25 12.3603 8.17098 12.2197 8.03033C12.079 7.88968 12 7.69891 12 7.5V3C12 2.60218 11.842 2.22064 11.5607 1.93934C11.2794 1.65804 10.8978 1.5 10.5 1.5H3C2.60218 1.5 2.22064 1.65804 1.93934 1.93934C1.65804 2.22064 1.5 2.60218 1.5 3V15C1.5 15.3978 1.65804 15.7794 1.93934 16.0607C2.22064 16.342 2.60218 16.5 3 16.5H6.75C6.94891 16.5 7.13968 16.579 7.28033 16.7197C7.42098 16.8603 7.5 17.0511 7.5 17.25C7.5 17.4489 7.42098 17.6397 7.28033 17.7803C7.13968 17.921 6.94891 18 6.75 18Z" fill="#080808" fillOpacity="0.9" />
@@ -233,12 +207,32 @@ export default function Home() {
                     </svg>
                   </div>
                   <h4>
-                    <a href="#" className="flex flex-wrap items-end justify-between font-bold text-xl font-Syne text-black-800 group-hover:text-orange transition-all">
+                    <div className="flex flex-wrap items-end justify-between font-bold text-xl font-Syne text-black-800 group-hover:text-orange transition-all">
                       UI/UX <br /> design
                       <span className="text-black-text-600 group-hover:text-orange group-hover:animate-arrow-move-up">
                         <ArrowIcon className="transition-all" />
                       </span>
-                    </a>
+                    </div>
+                  </h4>
+                </div>
+                {/* service Item End */}
+
+                {/* service Item */}
+                <div className="px-6 py-7 bg-black-500 rounded-lg transition-all hover:shadow-2xl hover:bg-white group" data-aos="fade-up" data-aos-delay="700">
+                  <div className="w-12 h-12 bg-white rounded-full shadow flex flex-wrap items-center justify-center transition-all group-hover:bg-black-500 mb-8">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="#080808" fillOpacity="0.9" />
+                      <path d="M2 12L12 17L22 12" stroke="#FFB646" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M2 17L12 22L22 17" stroke="#080808" strokeOpacity="0.9" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </div>
+                  <h4>
+                    <div className="flex flex-wrap items-end justify-between font-bold text-xl font-Syne text-black-800 group-hover:text-orange transition-all">
+                      Prototyping
+                      <span className="text-black-text-600 group-hover:text-orange group-hover:animate-arrow-move-up">
+                        <ArrowIcon className="transition-all" />
+                      </span>
+                    </div>
                   </h4>
                 </div>
                 {/* service Item End */}
@@ -255,12 +249,12 @@ export default function Home() {
                     </svg>
                   </div>
                   <h4>
-                    <a href="#" className="flex flex-wrap items-end justify-between font-bold text-xl font-Syne text-black-800 group-hover:text-orange transition-all">
+                    <div className="flex flex-wrap items-end justify-between font-bold text-xl font-Syne text-black-800 group-hover:text-orange transition-all">
                       Interaction <br /> design
                       <span className="text-black-text-600 group-hover:text-orange group-hover:animate-arrow-move-up">
                         <ArrowIcon className="transition-all" />
                       </span>
-                    </a>
+                    </div>
                   </h4>
                 </div>
                 {/* service Item End */}
@@ -269,18 +263,39 @@ export default function Home() {
                 <div className="px-6 py-7 bg-black-500 rounded-lg transition-all hover:shadow-2xl hover:bg-white group" data-aos="fade-up" data-aos-delay="1100">
                   <div className="w-12 h-12 bg-white rounded-full shadow flex flex-wrap items-center justify-center transition-all group-hover:bg-black-500 mb-8">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="3" y="3" width="8" height="8" rx="1.5" fill="#080808" fillOpacity="0.9" />
+                      <rect x="13" y="3" width="8" height="8" rx="1.5" fill="#FFB646" />
+                      <rect x="3" y="13" width="8" height="8" rx="1.5" fill="#FFB646" />
+                      <rect x="13" y="13" width="8" height="8" rx="1.5" fill="#080808" fillOpacity="0.9" />
+                    </svg>
+                  </div>
+                  <h4>
+                    <div className="flex flex-wrap items-end justify-between font-bold text-xl font-Syne text-black-800 group-hover:text-orange transition-all">
+                      Design Systems
+                      <span className="text-black-text-600 group-hover:text-orange group-hover:animate-arrow-move-up">
+                        <ArrowIcon className="transition-all" />
+                      </span>
+                    </div>
+                  </h4>
+                </div>
+                {/* service Item End */}
+
+                {/* service Item */}
+                <div className="px-6 py-7 bg-black-500 rounded-lg transition-all hover:shadow-2xl hover:bg-white group" data-aos="fade-up" data-aos-delay="1300">
+                  <div className="w-12 h-12 bg-white rounded-full shadow flex flex-wrap items-center justify-center transition-all group-hover:bg-black-500 mb-8">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M9.75 5.25L3.75 12L9.75 18.75" stroke="#080808" strokeOpacity="0.9" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                       <path d="M14.25 5.25L20.25 12L14.25 18.75" stroke="#080808" strokeOpacity="0.9" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                       <path d="M13 3.75L11 20.25" stroke="#FFB646" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                   </div>
                   <h4>
-                    <a href="#" className="flex flex-wrap items-end justify-between font-bold text-xl font-Syne text-black-800 group-hover:text-orange transition-all">
+                    <div className="flex flex-wrap items-end justify-between font-bold text-xl font-Syne text-black-800 group-hover:text-orange transition-all">
                       Frontend <br /> dev
                       <span className="text-black-text-600 group-hover:text-orange group-hover:animate-arrow-move-up">
                         <ArrowIcon className="transition-all" />
                       </span>
-                    </a>
+                    </div>
                   </h4>
                 </div>
                 {/* service Item End */}
