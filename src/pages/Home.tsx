@@ -80,7 +80,7 @@ export default function Home() {
               <div className="flex flex-wrap items-center" data-aos="fade-right" data-aos-delay="1400">
                 <div className="flex flex-wrap items-center">
                   <span className="font-Syne text-black-800 font-bold text-[44px] leading-none">
-                    <Counter to={50} />+
+                    <Counter to={20} />+
                   </span>
                   <span className="text-lg text-black-700 ml-3">Worldwide client</span>
                   <span className="mx-8">

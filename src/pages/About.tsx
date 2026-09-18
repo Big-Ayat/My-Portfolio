@@ -110,7 +110,7 @@ export default function About() {
               <ul className="flex flex-wrap gap-9 2xl:gap-[40px]">
                 <li>
                   <span className="text-black-800 text-[32px] font-bold font-Syne leading-10 relative before:rounded-full before:bg-black-300 before:block before:absolute before:top-[0px] before:left-0 before:right-0 before:-z-[1] before:w-[43px] before:h-[43px]">
-                    50+
+                    20+
                   </span>
                   <p className="paragraph">Worldwide client</p>
                 </li>
