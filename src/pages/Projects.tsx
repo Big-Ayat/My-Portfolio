@@ -54,7 +54,7 @@ export default function Projects() {
                   <span className="relative z-[1] before:rounded-full before:bg-primary before:block before:absolute before:top-[4px] before:left-[-6px] before:-z-[1] before:w-[36px] lg:before:w-[48px] xl:before:w-[64px] before:h-[36px] lg:before:h-[48px] xl:before:h-[64px]">
                     w
                   </span>
-                  ork
+                  orks
                 </h3>
               </div>
             </div>

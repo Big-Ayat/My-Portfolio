@@ -68,7 +68,7 @@ export default function Footer() {
                     onClick={scrollToTop}
                   >
                     <span className="text-white text-lg font-normal font-sans leading-7 transition-all group-hover:text-orange">
-                      Back to Top
+                      Top
                     </span>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M12 19V5" stroke="#FFB646" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />

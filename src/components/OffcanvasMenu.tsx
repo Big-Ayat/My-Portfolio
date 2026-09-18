@@ -6,6 +6,7 @@ const links = [
   { to: '/', label: 'Home' },
   { to: '/about', label: 'About' },
   { to: 'https://www.behance.net/big-ayatdesign', label: 'Project', external: true },
+  { to: '/music', label: 'Music' },
   { to: '/contact', label: 'Contact' },
 ]
 

@@ -28,15 +28,27 @@ export default function Home() {
                 Hello, I&rsquo;m
                 <img className="ml-2" src="/assets/images/icon/victory.png" alt="icon" />
               </span>
+              <style>{`
+                @media (max-width: 991px) {
+                  .hero-name-h1, .hero-name-h2 {
+                    font-size: 65px;
+                    line-height: 48px;
+                  }
+                  .hero-name-h1::before {
+                    width: 48px;
+                    height: 48px;
+                  }
+                }
+              `}</style>
               <h1
-                className="relative z-[1] font-Syne text-black-800 font-bold text-[80px] lg:text-[100px] xl:text-[120px] 2xl:text-[120px] leading-[64px] lg:leading-[80px] xl:leading-[90px] 2xl:leading-[110px] 2xl:before:w-[120px] xl:before:w-[100px] 2xl:before:h-[120px] xl:before:h-[100px] before:rounded-full before:bg-primary before:block before:absolute before:top-[0px] before:left-0 before:-z-[1] lg:before:w-[85px] lg:before:h-[85px] before:w-[70px] before:h-[70px]"
+                className="hero-name-h1 relative z-[1] font-Syne text-black-800 font-bold text-[80px] lg:text-[100px] xl:text-[120px] 2xl:text-[120px] leading-[64px] lg:leading-[80px] xl:leading-[90px] 2xl:leading-[110px] 2xl:before:w-[120px] xl:before:w-[100px] 2xl:before:h-[120px] xl:before:h-[100px] before:rounded-full before:bg-primary before:block before:absolute before:top-[0px] before:left-0 before:-z-[1] lg:before:w-[85px] lg:before:h-[85px] before:w-[70px] before:h-[70px]"
                 data-aos="fade-right"
                 data-aos-delay="400"
               >
                 Ayatullah
               </h1>
               <h2
-                className="font-Syne text-black-800 font-bold text-[80px] lg:text-[100px] xl:text-[120px] 2xl:text-[120px] leading-[64px] lg:leading-[80px] xl:leading-[90px] 2xl:leading-[110px] mb-[20px]"
+                className="hero-name-h2 font-Syne text-black-800 font-bold text-[80px] lg:text-[100px] xl:text-[120px] 2xl:text-[120px] leading-[64px] lg:leading-[80px] xl:leading-[90px] 2xl:leading-[110px] mb-[20px]"
                 data-aos="fade-right"
                 data-aos-delay="600"
               >
@@ -623,9 +635,13 @@ detail to the deployed frontend.
                   <span className="relative z-[1] before:rounded-full before:bg-primary before:block before:absolute before:top-[4px] before:left-[-6px] before:-z-[1] before:w-[36px] lg:before:w-[48px] xl:before:w-[64px] before:h-[36px] lg:before:h-[48px] xl:before:h-[64px]">
                     w
                   </span>
-                  ork
+                  orks
                 </h3>
               </div>
+              <p className="paragraph text-center max-w-[560px] mx-auto">
+                Here are a few projects that showcase my work and creativity. While there are many more, I&rsquo;ve curated a
+                selection to keep this portfolio concise and focused.
+              </p>
             </div>
 
             <div className="col-span-12" data-aos="fade-up" data-aos-delay="300">
